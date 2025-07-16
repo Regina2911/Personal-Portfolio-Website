@@ -11,11 +11,11 @@ body {
   margin: 0;
   padding: 0 3%;
   font-family: "Mulish", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 24px;
   line-height: 20px;
   letter-spacing: 0.2em;
-  background: linear-gradient(180deg, #392657 0%, rgba(57, 38, 87, 0.8) 100%);
+  background: linear-gradient(180deg, #4c305e 0%, rgb(230, 132, 214) 100%);
   color: #ffffff;
 }
 
@@ -89,18 +89,19 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/developer.png);
+  background-image: url(/static/img/developer.png);
   background-size: cover;
   padding: 10vh 10vw 80vh 10vw;
   background-position: center bottom;
   gap: 20px;
+  
 }
 
 .home__title {
   letter-spacing: 0.3em;
   font-size: 70px;
   text-align: center;
-  color: #a178b9;
+  color: #cf86cf;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -149,10 +150,6 @@ ul {
   width: 40%;
 }
 
-.info-block__img {
-  align-self: center;
-}
-
 .skills {
   margin-bottom: 200px;
   display: flex;
@@ -164,7 +161,7 @@ ul {
   font-size: 60px;
   position: relative;
   text-align: left;
-  color: #cc8bf2;
+  color: #5c3175;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -266,7 +263,7 @@ ul {
   font-size: 60px;
   position: relative;
   text-align: left;
-  color: #cc8bf2;
+  color: #4a265f;
   line-height: 1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -324,7 +321,7 @@ ul {
   font: inherit;
   font-weight: 800;
   color: #fff;
-  background: linear-gradient(111.97deg, #CC8BF2 35.63%, rgba(204, 139, 242, 0) 150.16%);
+  background: linear-gradient(111.97deg, #683884 35.63%, rgba(204, 139, 242, 0) 150.16%);
   filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
   padding: 15px 30px;
   border-radius: 20px;
